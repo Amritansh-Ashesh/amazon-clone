@@ -1,0 +1,32 @@
+.checkout {
+	display: flex;
+	padding: 10px;
+	background-color: white;
+	height: max-content;
+}
+
+.checkout__ad {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.checkout__payText {
+	font-size: 14px;
+	margin-bottom: 22px;
+	line-height: 20px;
+}
+
+.checkout__lineOne {
+	color: #b22222;
+}
+
+.checkout__title {
+	margin-right: 10px;
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+/* .checkout__right {
+} */

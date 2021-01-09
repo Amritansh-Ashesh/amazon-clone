@@ -1,0 +1,101 @@
+.header {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: #131921;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.header__logo {
+	width: 100px;
+	/* Maintains Aspect Ratio */
+	object-fit: contain;
+	margin: 0 20px;
+	margin-top: 10px;
+}
+
+.header__search {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	border-radius: 24px;
+}
+
+.header__searchInput {
+	height: 30px;
+	padding: 10px;
+	border: none;
+	width: 100%;
+}
+
+.header__searchIcon {
+	padding: 7px;
+	height: 30px !important;
+	background-color: #cd9042;
+	border-top-right-radius: 8%;
+	border-bottom-right-radius: 8%;
+}
+.header__optionLineOne {
+	font-size: 11px;
+	font-weight: 400;
+	font-family: Arial, sans-serif;
+}
+
+.header__optionLineTwo {
+	font-size: 12px;
+	font-weight: 600;
+	font-family: Arial, sans-serif;
+}
+
+.header__basketIcon {
+	height: 30px;
+	padding: 1px;
+}
+
+.header__basketCount {
+	margin-left: 5px;
+	margin-bottom: -5px;
+}
+
+.header__optionBasket {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin: 5px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+	.header__optionLineOne {
+		display: none;
+	}
+
+	.header__optionLineTwo {
+		display: none;
+	}
+
+	.header__optionBasket {
+		margin-right: 20px;
+	}
+
+	.header__optionBasket > .header__optionLineTwo {
+		display: flex;
+	}
+}
+
+.header__option {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+}
