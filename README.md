@@ -1,6 +1,6 @@
 Amazon Clone build using the FERN stack.
 
-## Screenshots
+# Screenshots
 
 Home 
 
@@ -10,11 +10,9 @@ User Authentication
 
 ![](signin.png)
 
-
 Cart 
 
 ![](checkout.png)
-
 
 Payments Page
 
@@ -35,8 +33,8 @@ Order History
 ![](orders.png)
 
 ## Alternatively
-Use this test account to access orders page
-E-mail: test123
+Use this test account to access orders page\
+E-mail: test123\
 Password: test123
 
 ## Project Link
