@@ -1,20 +1,20 @@
-Amazon Clone build using the FERN stack.
+Complete Amazon Clone build using Firebase, ExpressJS | React | NodeJS 
 
 # Screenshots
 
-Home 
+Home 🏡
 
 ![](home.png)
 
-User Authentication
+User Authentication 🤵
 
 ![](signin.png)
 
-Cart 
+Cart 🛒
 
 ![](checkout.png)
 
-Payments Page
+Payments Page 💳
 
 ![](paymentpage.png)
 
@@ -24,11 +24,11 @@ Due to some firebase billing error I couldn't get my backend cloud function to d
 
 Here is what it looks like though - 
 
-Stripe Payment
+Stripe Payment 📈🚀
 
 ![](payments.png)
 
-Order History
+Order History 😢
 
 ![](orders.png)
 
