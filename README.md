@@ -1,5 +1,11 @@
 Complete Amazon Clone build using Firebase, ExpressJS | React | NodeJS 
 
+    1️⃣ Accounts and Login Page 👨‍👨‍👧‍👦
+    2️⃣ Products Page 📦
+    3️⃣ Cart and Checkout Page  🛒
+    4️⃣ Real Payments 💳
+    5️⃣ Order History Page 📖
+
 # Screenshots
 
 Home 🏡
